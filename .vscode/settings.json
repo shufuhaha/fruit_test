@@ -1,0 +1,6 @@
+{
+  // 提交后自动推送到远端，避免本地领先 GitHub
+  "git.postCommitCommand": "sync",
+  // 推送/拉取前先自动 fetch，减少「领先/落后」的困惑
+  "git.autofetch": true
+}
